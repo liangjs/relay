@@ -7,7 +7,7 @@
 
 CURROOT=$PWD
 DUMPROOT=$PWD/ciltrees
-RELAYROOT=/home/jan/research/relay-race
+RELAYROOT=$(realpath `dirname $0`/..)
 DUPPYROOT=$RELAYROOT/scripts
 CILLYROOT=$RELAYROOT/cil/bin
 LOG=$DUMPROOT/log.txt
